@@ -9,7 +9,6 @@ function render(variables = {}) {
   let city = variables.city || "";
   let country = variables.country || "";
   let avatarURL = variables.avatarURL || "https://randomuser.me/api/portraits/men/45.jpg";
-
   let socialPosition = variables.socialMediaPosition === "left" ? "left" : "right";
 
   document.querySelector("#widget_content").innerHTML = `
@@ -28,21 +27,23 @@ function render(variables = {}) {
     </div>`;
 }
 
-window.onload = function() {
-  window.variables = {
+window.onload = () => {
+  const defaultData = {
     includeCover: true,
     background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
     avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
     socialMediaPosition: "left",
-    twitter: null,
-    github: null,
-    linkedin: null,
-    instagram: null,
-    name: null,
-    lastName: null,
-    role: null,
-    country: null,
-    city: null
+    twitter: "twitteruser",
+    github: "githubuser",
+    linkedin: "linkedinuser",
+    instagram: "instauser",
+    name: "Your name",
+    lastName: "Your lastname",
+    role: "Web Developer",
+    city: "Miami",
+    country: "USA"
   };
+
+  window.variables = defaultData;
   render(window.variables);
 };
