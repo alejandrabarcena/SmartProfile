@@ -25,9 +25,6 @@ Ideal para practicar programación orientada a eventos y manipulación del DOM.
 
 └── app.js
 
-yaml
-Copiar
-Editar
 
 ---
 
