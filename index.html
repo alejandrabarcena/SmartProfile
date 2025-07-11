@@ -6,6 +6,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="controls">
+      <label>
+        <input type="checkbox" id="includeCover" checked />
+        Include Cover
+      </label>
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="lastName" placeholder="Last Name" />
+      <select id="socialMediaPosition">
+        <option value="left">Left</option>
+        <option value="right">Right</option>
+      </select>
+      <input type="text" id="twitter" placeholder="Twitter" />
+      <input type="text" id="github" placeholder="GitHub" />
+      <input type="text" id="linkedin" placeholder="LinkedIn" />
+      <input type="text" id="instagram" placeholder="Instagram" />
+      <select id="role">
+        <option value="">Role</option>
+        <option value="Web Developer">Web Developer</option>
+        <option value="UX Designer">UX Designer</option>
+        <option value="Data Analyst">Data Analyst</option>
+      </select>
+      <select id="city">
+        <option value="">City</option>
+        <option value="Miami">Miami</option>
+        <option value="New York">New York</option>
+        <option value="Mexico City">Mexico City</option>
+      </select>
+      <select id="country">
+        <option value="">Country</option>
+        <option value="USA">USA</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Spain">Spain</option>
+      </select>
+    </div>
+
     <div id="widget_content"></div>
     <script src="app.js"></script>
   </body>
