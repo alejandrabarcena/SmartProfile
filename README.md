@@ -21,7 +21,9 @@ Ideal para practicar programación orientada a eventos y manipulación del DOM.
 
 SmartProfile/
 ├── index.html
+
 ├── style.css
+
 └── app.js
 
 yaml
