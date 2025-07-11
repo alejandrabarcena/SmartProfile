@@ -9,6 +9,7 @@ function render(variables = {}) {
   let city = variables.city || "";
   let country = variables.country || "";
   let avatarURL = variables.avatarURL || "https://randomuser.me/api/portraits/men/45.jpg";
+
   let socialPosition = variables.socialMediaPosition === "left" ? "left" : "right";
 
   document.querySelector("#widget_content").innerHTML = `
