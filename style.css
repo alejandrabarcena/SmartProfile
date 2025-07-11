@@ -1,0 +1,42 @@
+body {
+  background: #f4f4f4;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+#widget_content {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.cover {
+  height: 100px;
+  background-size: cover;
+}
+
+img.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 3px solid #fff;
+}
+
+ul.social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul.social li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
