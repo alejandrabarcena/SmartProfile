@@ -1,44 +1,26 @@
-body {
-  font-family: sans-serif;
-  background: #f5f5f5;
+.controls {
   display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
 }
-.widget {
-  background: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-.avatar {
-  width: 100px;
-  border-radius: 50%;
-}
-.cover {
-  height: 150px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px 10px 0 0;
-}
-.social {
-  list-style: none;
-  padding: 0;
+
+.controls label {
   display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 15px;
+  align-items: center;
+  gap: 5px;
 }
-.social li a {
-  text-decoration: none;
-  color: #0077b6;
-}
-.social.left {
-  justify-content: flex-start;
-}
-.social.right {
-  justify-content: flex-end;
+
+.controls input,
+.controls select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 140px;
+  box-sizing: border-box;
 }
