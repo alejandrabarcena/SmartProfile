@@ -40,6 +40,7 @@ Abre index.html en tu navegador.
 Modifica las variables dentro de app.js para personalizar el perfil.
 
 💻 Tecnologías
+
 HTML5
 
 CSS3
@@ -51,7 +52,7 @@ Diseñado con 💜 por Alejandra Bárcena (@alejandrabarcena) y supervisado por 
 
 ---
 
-### ✅ ¿Cómo subirlo?
+## ✅ ¿Cómo subirlo?
 
 1. Crea un archivo nuevo llamado `README.md` en tu carpeta local.
 2. Pega el contenido ahí.
@@ -61,3 +62,4 @@ Diseñado con 💜 por Alejandra Bárcena (@alejandrabarcena) y supervisado por 
 git add README.md
 git commit -m "📝 Agregado README oficial"
 git push
+
