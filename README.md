@@ -19,7 +19,6 @@ Ideal para practicar programación orientada a eventos y manipulación del DOM.
 
 ## 📁 Estructura del proyecto
 
-SmartProfile/
 ├── index.html
 
 ├── style.css
