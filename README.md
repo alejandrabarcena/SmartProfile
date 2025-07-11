@@ -33,6 +33,7 @@ Ideal para practicar programación orientada a eventos y manipulación del DOM.
 1. Clona el repo:
    ```bash
    git clone https://github.com/alejandrabarcena/SmartProfile.git
+   
 Abre index.html en tu navegador.
 
 Modifica las variables dentro de app.js para personalizar el perfil.
@@ -59,3 +60,4 @@ Diseñado con 💜 por Alejandra Bárcena (@alejandrabarcena) y supervisado por 
 git add README.md
 git commit -m "📝 Agregado README oficial"
 git push
+
