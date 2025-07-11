@@ -28,6 +28,7 @@ Ideal para practicar programación orientada a eventos y manipulación del DOM.
 
 ---
 
+
 ## 🚀 ¿Cómo usarlo?
 
 1. Clona el repo:
@@ -60,4 +61,3 @@ Diseñado con 💜 por Alejandra Bárcena (@alejandrabarcena) y supervisado por 
 git add README.md
 git commit -m "📝 Agregado README oficial"
 git push
-
